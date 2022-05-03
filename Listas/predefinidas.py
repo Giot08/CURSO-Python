@@ -25,3 +25,19 @@ print(numeros)
 
 #buscar elementos
 print('muse' in cantantes)
+
+#contar elementos
+print(cantantes)
+print(len(cantantes))
+
+
+# numero de apariciones
+numeros.append(9)
+print(numeros.count(9))
+
+# encontrar indice
+print(cantantes.index('muse'))
+
+#unir listas
+cantantes.extend(numeros)
+print(cantantes)
